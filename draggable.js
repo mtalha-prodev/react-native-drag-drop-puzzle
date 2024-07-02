@@ -74,6 +74,8 @@ const Draggable = ({children, positions, id}) => {
     };
   });
 
+  console.log(translateX);
+
   return (
     <Animated.View style={animatedStyle}>
       <PanGestureHandler onGestureEvent={panGesture}>
